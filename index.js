@@ -3,7 +3,7 @@ const fs = require('fs');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-const { exit } = require('process');
+
 
 const employee = () => {
     inquirer.prompt(
